@@ -6,33 +6,98 @@
 	<title>Xi's Portfolio Home</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--font-->
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<!--icon-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
 	<!--Style-->
-	<!-- need to set all default borders to 0 in css_0326 18:25 update -->
-	<link rel="stylesheet" type="text/css" href="../css/style.css" />
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 
 <body>
-<!--NAVIGATION-->
-<div class="navigation">
-  <h1>Xi Li</h1>
-  <ul class="personal_info">
-    <li><a href="about_xi.html">About Xi</a></li>
-    <li><a href="resume.html">Resume</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
-  <h4>UX&IX Design</h4>
-  <ul class="uxui_part">
-    <li><a href="better_work_with_primarius.html">Better Work with Primarius</a></li>
-		<li><a href="galaxy_2018.html">Galaxy 2018</a></li>
-  </ul>
-  <h4>Illustration</h4>
-  <ul class="illus_part">
-    <li><a href="illustration_1718.html">2017-2018 Collection</a></li>
-  </ul>
-	<footer>All Rights Reserved @ Xi Li</footer>
+	<div id="bodycontainer">
+<!--PROMO-->
+	<!--NAVIGATION-->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container">
+		<a class="navbar-brand" href="index.html">Xi Li</a>
+  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  	  <span class="navbar-toggler-icon"></span>
+  	</button>
+
+  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  	  <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="design.html">Design <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="illustration.html">Illustration</a>
+      </li>
+			<!-- <li class="nav-item">
+				<a class="nav-link" href="sketchbook.html">Sketchbook</a>
+			</li> -->
+			<li class="nav-item">
+				<a class="nav-link" href="resume.html">Resume</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="about_xi.html">About</a>
+			</li>
+    </ul>
+	  </div>
+		</div>
+	</nav>
+
+	<!--JUMBOTRON-->
+	<div class="jumbotron">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12">
+					<div id="content">
+						<h1>Hi, I am Xi :)</h1>
+						<p id="jumbopara"> Design..  Illustrate..  Craft..  Sci & Eng..</p>
+						<a href="contact.html" class="btn btn-info btn-md">contact</a>
+
+					</div>
+						</div>
+				</div>
+				<div class="row downbtn">
+					<i class="fas fa-caret-down" id="downindex"></i>
+				</div>
+			</div>
+		</div>
+
+	<!--MAIN AREA-->
+	<div class="container">
+	  <div class="row topthumb">
+	    <div class="col-lg-4 col-md-6">
+	      <div class="thumbnail">
+					<div class="transbox">
+						<!-- <p>BETTER WORK WITH PRIMARIUS 1.0</p> -->
+					</div>
+					<a href="501primarius.html"><img src="../img/501_thumb.png" class="img-thumbnail"></a>
+	        <!-- <div class="image image1"></div> -->
+	      </div>
+	    </div>
+			<div class="col-lg-4 col-md-6">
+	      <div class="thumbnail">
+					<a href="501primarius.html"><img src="../img/582_thumb.png" class="img-thumbnail"></a>
+					<!-- <img src="../img/582_thumb.png" class="img-thumbnail"> -->
+	        <!-- <div class="image image1"></div> -->
+	      </div>
+	    </div>
+			<div class="col-lg-4 col-md-6">
+	      <div class="thumbnail">
+					<a href="501primarius.html"><img src="../img/easyt_thumb.png" class="img-thumbnail"></a>
+	        <!-- <div class="image image1"></div> -->
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<footer>All Rights Reserved © Xi Li</footer>
 </div>
-<!--MAIN BODY-->
-<div>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="../js/bootstrap.js"></script>
 
 </body>
 </html>

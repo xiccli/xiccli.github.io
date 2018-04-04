@@ -1,0 +1,95 @@
+
+
+h1,h4, h5{
+  color:#333333;
+}
+
+h3{
+  color:#686868;
+}
+
+.container{
+  margin-left:auto;
+  margin-right:auto;
+  justify-content: center;
+}
+
+.bodypart{
+    width:60%;
+}
+
+.header{
+  margin-top:5%;
+  padding: 0.5rem 1rem;
+}
+
+.briefintro{
+  padding: 0.5rem 1rem;
+  color: #999999;
+  margin-bottom:2%;
+}
+
+.projinfotitle{
+  padding: 0.5rem 1rem;
+  color:#ea3d3d;
+}
+
+.projinfo{
+    padding: 0.5rem 1rem;
+  color:#333333;
+}
+.text501{
+  color:#ea3d3d;
+}
+
+.reminder{
+  font-family: TimesNewRoman;
+  font-size:1rem;
+  color:rgba(0,0,0,0.4);
+  padding: 0.5rem;
+}
+.bodytext{
+  color:#696969;
+}
+
+.topintro{
+  margin-bottom:5%;
+}
+.main{
+  margin-top:5%
+}
+.imageintext{
+  text-align:center;
+}
+
+.onepicperrow{
+  margin-top:2rem;
+  margin-bottom:2rem;
+}
+
+.bodysection{
+  margin-top:3%;
+  margin-bottom:10%;
+}
+
+.pictextinsection{
+  padding-top:1rem;
+  padding-bottom:1rem;
+}
+.headerinpart{
+  color:#ea3d3d;
+}
+
+.textinpart{
+  color:#686868;
+}
+.textinpart2{
+  color:#686868;
+  font-size:0.8rem;
+}
+
+.sub-header{
+  color:#686868;
+  margin-top:3%;
+  margin-bottom: 1%;
+}
