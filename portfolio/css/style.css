@@ -104,8 +104,16 @@ form{
   /* border: 1px solid #BCEAF7; */
 }
 
+.img-thumbnail{
+  opacity:0.8;
+}
+
 .img-thumbnail:hover {
+<<<<<<< HEAD
   box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+=======
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+>>>>>>> 83f764182e6495d694c9727485135d72728be5e5
   opacity:1;
 }
 
