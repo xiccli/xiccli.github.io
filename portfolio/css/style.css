@@ -103,8 +103,13 @@ form{
   /* border: 1px solid #BCEAF7; */
 }
 
+.img-thumbnail{
+  opacity:0.8;
+}
+
 .img-thumbnail:hover {
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  opacity:1;
 }
 
 .navbar-designpage{
