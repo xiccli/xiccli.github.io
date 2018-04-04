@@ -9,6 +9,7 @@ body{
   margin-right:0px;
   justify-content: center;
   height:100%;
+
   /*保证footer是相对于container位置绝对定位*/
 }
 
@@ -76,6 +77,10 @@ form{
 
 .fab fa-github{
   color:#ffffff;
+}
+
+.onepicperrow{
+  width:;
 }
 
 .navnow{
@@ -187,6 +192,13 @@ form{
   color: #BCEAF7;
 }
 
+.spanspc2{
+  padding-top:0.5px;
+  padding-bottom: 0.5px;
+  border-bottom: 2px solid #9AE1F4;
+}
+
+
 
 #bodycontainer{
   position:relative;
@@ -211,12 +223,6 @@ form{
     padding-top:0.5px;
     padding-bottom: 1px;
     border-bottom: 4px solid #9AE1F4;
-}
-
-#spanspc2{
-  padding-top:0.5px;
-  padding-bottom: 0.5px;
-  border-bottom: 2px solid #9AE1F4;
 }
 
 #GET-name, #GET-email{
