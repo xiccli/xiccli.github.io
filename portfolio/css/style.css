@@ -94,7 +94,7 @@ form{
   /* border: 1px solid rgba(0,0,0.0,01); */
   border-radius: 0.25rem;
   max-width: 100%;
-  height: auto;
+  height: 18rem;
 }
 
 .img-thumbnail:hover {
@@ -171,6 +171,22 @@ form{
   color: rgba(0,0,0,0.5);
   margin-top:10%;
 }
+
+.projtitle{
+  justify-content: center;
+  color:rgba(0,0,0,0.5);
+  margin-top:2rem;
+}
+
+.hreftext{
+  color:#686868;
+}
+
+.hreftext:hover{
+  text-decoration: none;
+  color: #BCEAF7;
+}
+
 
 #bodycontainer{
   position:relative;
