@@ -182,6 +182,7 @@ form{
   justify-content: center;
   color: rgba(0,0,0,0.5);
   margin-top:10%;
+  font-size: 2rem;
 }
 
 .projtitle{
@@ -329,12 +330,16 @@ div#columns figure:hover {
 
 
 @media screen and (max-width: 750px) {
-  #columns { column-gap: 0px; }
+  #columns { column-gap: 0.5px; }
   #columns figure { width: 100%; }
+  .comingsoon {font-size:1.2rem}
 
 }
 @media screen and (max-width:400px){
+    #columns { column-gap: 0px; }
 .inabout {width:100%;}
+.comingsoon {font-size:0.8rem}
+
 }
 
 
