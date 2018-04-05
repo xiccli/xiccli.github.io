@@ -336,7 +336,7 @@ div#columns figure:hover {
 
 }
 @media screen and (max-width:400px){
-    #columns { column-gap: 0px; }
+  #columns { column-gap: 0px; }
 .inabout {width:100%;}
 .comingsoon {font-size:0.8rem}
 
