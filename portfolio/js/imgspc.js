@@ -5,9 +5,8 @@ $(document).ready(function(){
              'allowMultiple' : false,
              'autoScale':true,
              'height':100%
-           });
-
-       });
+           })
+       })
 
 // function openModal1() {
 //   document.getElementById('myModal').style.display = "block";
