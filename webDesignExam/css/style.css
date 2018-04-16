@@ -7,6 +7,9 @@ body{
   font-family: "Times New Roman", Times, serif;
   background-image: url(../images/sun-pattern.png);
 }
+h1{
+  font-style: bold;
+}
 .picgallary{
   display:flex;
   justify-content:center;
@@ -15,7 +18,7 @@ body{
   border:5px solid blue;
   padding:5%;
   height:100%;
-  float: left;
+  /* float: left; */
   overflow: hidden;
 }
 .btnstyle{
@@ -24,7 +27,7 @@ body{
 
 .imgs{
   display:inline-block;
-  float: left;
+  /* float: left; */
 }
 
 #img1, #img2. {
