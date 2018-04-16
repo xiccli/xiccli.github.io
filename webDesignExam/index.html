@@ -5,24 +5,25 @@
     <title>539webfinal</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
-
   </head>
   <body>
     <header>
       <h1>Xi Li</h1>
     </header>
     <div class="picgallary">
-      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+      <span class="imgs col-lg-6 col-md-6 col-sm-6 col-xs-6" id="img1">
         <img class="image1" src="images/examPic.JPG" alt="photo">
-      </div>
-      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+      </span>
+      <span class="imgs col-lg-6 col-md-6 col-sm-6 col-xs-6" id="img2">
         <img class="image2" src="images/UMSI-logo.jpg" alt="umsi logo">
-      </div>
+      </span>
     </div>
     <div class="btns">
-        <button class="btnstyle" type="button" name="btnhide">Hide Image</button>
-        <button class="btnstyle" type="button" name="btnshow">Show Image</button>
+        <button id="btnstyle1" type="button" name="btnhide">Hide Image</button>
+        <button id="btnstyle2" type="button" name="btnshow">Show Image</button>
     </div>
 
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="act.js"></script>
   </body>
 </html>
