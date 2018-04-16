@@ -1,0 +1,19 @@
+img{
+  display:inline-block;
+}
+.body{
+  margin:0;
+  padding:0;
+}
+.picgallary{
+  display:flex;
+}
+.image1, .image2{
+  border:5px solid blue;
+  padding:5%;
+  height:100%;
+}
+
+.btnstyle{
+  border-radius: 5px;
+}
