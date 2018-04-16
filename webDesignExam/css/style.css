@@ -4,6 +4,7 @@ img{
 body{
   margin:0;
   padding:0;
+  font-family: "Times New Roman", Times, serif;
   background-image: url(../images/sun-pattern.png);
 }
 .picgallary{
@@ -14,6 +15,8 @@ body{
   border:5px solid blue;
   padding:5%;
   height:100%;
+  float: left;
+  overflow: hidden;
 }
 .btnstyle{
   border-radius: 5px;
@@ -21,9 +24,11 @@ body{
 
 .imgs{
   display:inline-block;
+  float: left;
 }
 
-#img1, #img2. #img3 {
+#img1, #img2. {
   margin:0;
   padding:0;
+  float:left;
 }
