@@ -1,0 +1,15 @@
+body{
+  font-family:'Lato', sans-serif;
+  width:80%;
+}
+
+h1,h3,h5{
+  color:rgb(47,144,185);
+}
+p{
+  color:rgba(0,0,0,0.8);
+}
+
+.bodycontent1, .bodycontent2{
+  margin-top: 3rem;
+}
