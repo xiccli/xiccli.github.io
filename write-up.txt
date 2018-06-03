@@ -1,7 +1,0 @@
-In my portfolio, after "constructing" the content of each page, I had my style based on Bootstrap, with modifications in self-created css files: style.css, aboutspc.css, imgspc.css and perproject.css. I have my .js based on Bootstrap one and jQuery too.
-
-In index.html, I included a jumbotron to have visitors see a welcome information and quick link to "contact". In navigation part, I had the links to other pages shrink to a hamburger button when page size was in middle and small. For page that is in current view (like "design" or "about"), I use attributes in span to make the underline more obvious.
-
-In nearly all pages, I redefined some styles including font styles, margins, hover status, and so on to fit the page look like my style. In illustration.html, I made the image clickable and can be expanded to the original size. one can click "return" button in browser to go back to original page (I think it should be better if I could make it shown as a pop-up and user can click empty space to close). Also I change the background in this page to make it more like a "gallery".
-
-For the text box of "message" in contact.html, I learned from online sharing codes to make its height change as more texts are put inside. I used the attribute of form to connect "send" to a real email draft. But I did not figure out how to send it directly to the "my email". 
