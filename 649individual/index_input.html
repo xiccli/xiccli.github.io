@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>SI 649 Lab 5</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css" />
+
+</head>
+<body>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="js/main_input.js"></script>
+
+
+<div class="toppart">
+	<div class="top-title">
+		 <h1>Combination & Permutation</h1>
+	</div>
+  <div>
+
+  </div>
+  <div class="intro-text">
+	<p class = "lead text-center">
+		SI649 - Individual Project - Xi Li
+	</p>
+  </div>
+</div>
+
+
+
+ <div class="content">
+	 <div class="visual">
+ 		<section class="play">
+ 		  <div class="start-input" id="have-a-try">
+ 			<p>To get started, I want to show you what is the difference between these 2 terms visually first. </p>
+ 			<p> Please choose an interger below and check what's happening:</p>
+ 			<ul class="options" id="start-choice-1">
+ 				<li>2<input type="radio" class="noption" id="sc1-2" name="startnumber" value="two" onclick="generate_singlec('two')"></li>
+ 				<li>3<input type="radio" class="noption" id="sc1-3" name="startnumber" value="three" onclick="generate_singlec('three')"></li>
+ 				<li>4<input type="radio" class="noption" id="sc1-4" name="startnumber" value="four" onclick="generate_singlec('four')"></li>
+ 			</ul>
+			<div class="vis-box" id="total-vis">
+
+			</div>
+			<p>Great! Now you see there are some squares. If I ask you to select some of them to me, either in order or not, how many are you willing to give me?</p>
+			<ul class="options" id="start-choice-2">
+
+ 			</ul>
+			<div class="top-reset">
+				<input  id = "top-reset" type="button" class="button" value="RESET">
+			</div>
+
+ 			<div class="start-squares" id="visual-example">
+ 				<div class="start-combination">
+ 					<div class="vis-box" id="permu-vis">
+ 						<h3>Permutation</h3>
+ 					</div>
+ 					<div class="vis-box" id="combo-vis">
+ 						<h3>Combination</h3>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		  </div>
+ 		</section>
+ 	</div>
+
+
+ 	<div class="explanation">
+ 		<section class="intro">
+ 		  <div class="introtoknowledge" id="knowmore">
+ 			  <p> From "play with squares", you can see that the major difference between combination and permutation is if there is an order issue. </p>
+ 			  <h2>Definition</h2>
+ 			  <div class="two-parts">
+ 				  <div class="one-part">
+ 					  <h3>What is Combination?</h3>
+ 					  <div class="formula-img">
+ 						  <img src="img/combination.png" alt="combination-img">
+ 					  </div>
+ 					  <p>The number of ways of picking k unordered outcomes from n possibilities.</p>
+
+ 				  </div>
+ 				  <div class="one-part">
+ 					  <h3>What is Permutation?</h3>
+ 					  <div class="formula-img">
+ 						  <img src="img/permutation.png" alt="combination-img">
+ 					  </div>
+ 					  <p>A permutation, also called an "arrangement number" or "order," is a rearrangement of the elements of an ordered list S into a one-to-one correspondence with S itself.</p>
+
+ 				  </div>
+ 			  </div>
+ 		  </div>
+ 		</section>
+ 		<section class="calculation">
+ 		  <div class="start-input" id="have-a-try">
+ 			  <div class="numberinput">
+ 				  <div class="n-input">
+ 					  <p>please input the total amount of squares you want in a bag as "n":</p>
+ 					  <div class="options" id="start-choice">
+ 						  <input type="text" class="n" id="totalnum" name="total elements">
+ 					  </div>
+ 				  </div>
+ 				  <div class="k-input">
+ 					  <p>please input how many squares you want to pick out from the bag as "k":</p>
+ 					  <div class="options" id="start-choice">
+ 						  <input type="text" class="k" id="selectnum" name="selected elements">
+ 					  </div>
+ 				  </div>
+ 			  </div>
+ 			  <div class="start-buttons">
+ 				  <input id = "submit" type="button" class="button"value="SUBMIT">
+ 				  <input  id = "reset" type="button" class="button" value="RESET">
+ 			  </div>
+ 			  <div class="two-parts start-end">
+ 				  <div class="one-part" >
+ 					  <h4>Combination Result:</h4>
+ 					  <div class="results" id="combination_result">
+
+ 					  </div>
+ 				  </div>
+
+ 				  <div class="one-part" >
+ 					  <h4>Permutation Result:</h4>
+ 					  <div class="results-squares" id="permutation_result">
+
+ 					  </div>
+ 				  </div>
+
+ 			  </div>
+			  <div class="reference">
+			    <h5>Reference</h5>
+			    <p>http://mathworld.wolfram.com/Permutation.html</p>
+			    <p>http://mathworld.wolfram.com/Combination.html</p>
+			    <p>http://pebreo.github.io/combinations-visualization/</p>
+			 </div>
+ 		  </div>
+
+ 		</section>
+
+ 	</div>
+
+ </div>
+
+
+
+
+</body>
+
+
+</html>
